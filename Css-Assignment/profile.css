@@ -1,0 +1,147 @@
+.nav{
+    list-style:none;
+    background:royalblue;
+    display:flex;
+    justify-content:flex-end;
+    position:sticky;
+}
+.nav a{
+    text-decoration:none;
+    display:block;
+    padding:1em;
+    color:#fff;
+    font-weight:900;
+    text-transform:uppercase;
+}
+.nav li:first-child{
+    margin-right:auto;
+}
+.nav a:hover{
+    background:rgba(200, 216, 250,0.4);
+}
+
+.profile-image{
+    position: relative;
+    justify-content: center;
+    min-height: 80vh;
+    background-color:rgba(207, 209, 212,0.5);
+    text-align: center;
+    color:seashell;
+    background-image:url("./fullstack.jpg");
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 100px;
+}
+
+h1{
+    font-size: 100px;
+}
+h2{
+    font-weight: 400px;
+}
+.skills{
+    width:auto;
+    background-color:rgba(219, 218, 213,0.7);
+    align-items: center;
+    color:rgba(10, 9, 1,1);
+    padding: 125px 100px;
+}
+.projects{
+    width:auto;
+    background-color:rgba(242, 242, 240,0.8);
+    align-items: center;
+    color:rgba(10, 9, 1,1);
+    padding: 125px 100px;
+}
+.flex-container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.footer-container{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.flex-container-project{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.flex-item {
+    background: seashell;
+    padding: 45px;
+    width: 300px;
+    height: 250px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border-radius:15px 15px 15px 15px;
+    box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .2);
+  }
+  .flex-item-project {
+    background:snow;
+    padding: 50px;
+    width: auto;
+    height: 200px;
+    margin-top: 10px;
+    color:black;
+    font-weight: bold;
+    font-size: 3em;
+    text-align:center;
+    border-radius:15px 15px 15px 15px;
+    box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .2);
+  }
+  .skill1{
+      background-image:url("./react1.jpg");
+  }
+  .skill2{
+    background-image:url("./node-image.jpg");
+}
+.skill3{
+    background-image:url("./python-image1.jpg");
+}
+footer {
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #414a4f;
+    padding: 60px 0;
+}
+
+.footer-icons a{
+display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.description{
+    font-weight: normal;
+    font-size:25px;
+}
